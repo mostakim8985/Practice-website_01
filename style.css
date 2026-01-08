@@ -42,6 +42,12 @@ nav .logo_color {
     text-transform: capitalize;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.sign-button:hover {
+    background-color: #4d47ff86;
+    color: #252432;
 }
 
 .hero-highlight {
@@ -71,6 +77,12 @@ nav .logo_color {
     font-weight: 700;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.hero-button:hover {
+    background-color: #4d47ff86;
+    color: #252432;
 }
 
 .fst-container {
@@ -84,6 +96,7 @@ nav .logo_color {
 
 .image img {
     border-radius: 48px;
+    box-shadow: 13px 13px 15px 2px rgba(0, 0, 0, 0.425);
 
 }
 
@@ -114,6 +127,12 @@ nav .logo_color {
     color: white;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.fst-info button:hover {
+    background-color: #4d47ff86;
+    color: #252432;
 }
 
 .scnd-container {
@@ -125,6 +144,7 @@ nav .logo_color {
     padding: 50px 142px;
     background-color: #4d47ff31;
     border-radius: 24px;
+    box-shadow: 4px 6px 20px 2px rgba(0, 0, 0, 0.425);
 }
 
 .scnd-container .high-text {
@@ -248,10 +268,17 @@ nav .logo_color {
     font-weight: 600;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.four-container button:hover {
+    background-color: #4d47ff86;
+    color: #252432;
 }
 
 .four-container img {
     border-radius: 48px;
+    box-shadow: 13px 13px 15px 2px rgba(0, 0, 0, 0.425);
 }
 
 .fifth-container {
@@ -327,6 +354,12 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: bold;
     color: white; 
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.fifth-container form button:hover {
+    background-color: #4d47ff86;
+    color: #252432;
 }
 footer {
     width: 100vw;
@@ -361,4 +394,10 @@ margin-bottom: 8px;
 .footer-info ul li a {
     text-decoration: none;
     color: #8987A1;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.footer-info ul li a:hover {
+    color: #000000;
+    border-bottom: 1px solid black;
 }
